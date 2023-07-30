@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top mx-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/image.jpg" alt="Logo" width="50" height="24" class=" col-lg-12 col-md-10 col-sm-8 col-4 mx-3 align-text-top">
+                </a>
+                <div class="row">
+                    <div class=" col-md-12  text-right">
+                        <button type="button" class="btn row-lg-12 row-md-8 row-sm-6 row-4  btn-primary">Near me</button>
+                        <button type="button" class="btn row-lg-12 row-md-8 row-sm-6 row-4  btn-primary">Add a listing</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-white ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-bold me-auto m-3 mx-5 mb-2 mb-lg-0 text-secondary">
+                        <li class="nav-item">
+                            <i class="bi mx-4 bi-house-door">Home</i>
+                        </li>
+                         <li class="nav-item">
+                        <i class="bi mx-4 bi-list">All Listings</i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi mx-4">Blogs</i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi mx-4">Contact Us</i>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="d-flex justify-content-center mt-5 google-map  ">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14001.635429696998!2d77.18302375!3d28.6774138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1690654035422!5m2!1sen!2sin"
+                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <div class="text-center mt-3">
+            <button type="button" class="btn btn-primary">Near me</button>
+        </div>
+        <div class="container">
+            <div class="cards row row-cols-2 row-cols-lg-5 d-flex justify-content-center gap-2 m-5 ">
+                <div class="card  data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/claudel-rheault-ZVbv1akA-l4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Kasauli Trip FAQs</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Solan
+                        </a>
+                    </div>
+                </div>
+                <div class="card  data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/sidekix-media-WgkA3CSFrjc-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Sagar Thakur Dhaba</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Manali
+                        </a>
+                    </div>
+                </div>
+                <div class="card   data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/simon-waelti-G63__2LCIyU-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Siswan Dam</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Chandigarh
+                        </a>
+                    </div>
+                </div>
+                <div class="card data   p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/claudel-rheault-ZVbv1akA-l4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Hidden Waterfall Trek</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Shimla
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards row row-cols-2 row-cols-lg-5 d-flex justify-content-center gap-2 m-5 ">
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/claudel-rheault-ZVbv1akA-l4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Kasauli Trip FAQs</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Solan
+                        </a>
+                    </div>
+                </div>
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/sidekix-media-WgkA3CSFrjc-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Sagar Thakur Dhaba</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Manali
+                        </a>
+                    </div>
+                </div>
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/simon-waelti-G63__2LCIyU-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Siswan Dam</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Chandigarh
+                        </a>
+                    </div>
+                </div>
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/claudel-rheault-ZVbv1akA-l4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Hidden Waterfall Trek</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Shimla
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-lg-5 d-flex justify-content-center gap-2 m-5 ">
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/claudel-rheault-ZVbv1akA-l4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Kasauli Trip FAQs</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Solan
+                        </a>
+                    </div>
+                </div>
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/sidekix-media-WgkA3CSFrjc-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Sagar Thakur Dhaba</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Manali
+                        </a>
+                    </div>
+                </div>
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/simon-waelti-G63__2LCIyU-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Siswan Dam</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Chandigarh
+                        </a>
+                    </div>
+                </div>
+                <div class="card data p-3 g-col-6 border border-primary" style="width: 18rem;">
+                    <img src="/New folder/claudel-rheault-ZVbv1akA-l4-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fst-italic text-secondary">Blog</h5>
+                        <p class="card-text fw-bolder">Hidden Waterfall Trek</p>
+                        <a class="icon-link text-decoration-none icon-link-hover d-md-flex justify-content-md-end"
+                            href="#">
+                            <i class="bi bi-geo-alt mb-1"></i>
+                            Shimla
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card m-5 p-5 text-center">
+            <div class="card-body">
+                <h5 class="card-title fw-bolder fs-2 ">List your tourism services for free</h5>
+                <p class="card-text mt-4 fw-bold fs-5">Thrill tourism is an online platform that enables tourists to
+                    directly connect with hosts, without any commission fees.</p>
+                <a href="#" class="btn btn-primary p-2 mt-4">Publish your ad for free</a>
+            </div>
+        </div>
+        <footer class="bg-white pt-5 pb-4">
+            <div class="d-flex">
+                <p class="mx-5">2023 <i class="bi bi-c-circle"></i> thrilltourism.com | Privacy Policy | Terms and
+                    Conditions | Pricing</p>
+                <p class="text-danger m-auto">Beta version</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
